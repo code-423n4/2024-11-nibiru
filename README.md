@@ -96,20 +96,20 @@ app/evmante/interfaces.go                           |          9
 SUM:                                                |       7110
 
 **Main Scope**| 
---
-x/evm/keeper
-x/evm/precompile
-x/evm/statedb
-app/evmante
-eth/rpcapi/eth_api.go
-eth/rpc/backend
+----------| 
+x/evm/keeper| 
+x/evm/precompile| 
+x/evm/statedb| 
+app/evmante| 
+eth/rpcapi/eth_api.go| 
+eth/rpc/backend| 
 
 **Ignore *.pb.go protobuf files**
 
 **Important Tests**| 
---
-evm-e2e
-x/evm/evmtest
+--| 
+evm-e2e| 
+x/evm/evmtest| 
 
 ### Files out of scope
 
