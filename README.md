@@ -25,7 +25,7 @@ _Note for C4 wardens: Anything included in this `Automated Findings / Publicly K
 ## Links
 
 - **Previous audits:**  We did a C4 Zenith audit right before this competitive audit, though it doesn't have a report I can link yet. A much earlier version of the chain was also audited by Zellic prior to Nibiru's inclusion of the EVM (<https://reports.zellic.io/publications/nibiru>).
-- **Documentation:** :
+- **Documentation:** 
   - [Docs | Nibiru Chain](https://nibiru.fi/docs/): Conceptual and technical documentation can be found here.
   - [Complete Golang reference docs](https://pkg.go.dev/github.com/NibiruChain/nibiru): (`pkg.go.dev`) For the blockchain implementation .
   - [Nibiru Modules](https://nibiru.fi/docs/dev/x/): Module-specific documentation
