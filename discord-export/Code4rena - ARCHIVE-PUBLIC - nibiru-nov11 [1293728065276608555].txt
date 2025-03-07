@@ -1,0 +1,295 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-PUBLIC / nibiru-nov11
+==============================================================
+
+[11/11/2024 15:43] kartoonjoy
+👋 Hello and welcome to the **$70,000 in USDC Nibiru** audit channel!
+
+📆 Audit opens 11/11/2024 20:00 (20:00 UTC) and runs through 11/25/2024 20:00 (20:00 UTC) (14 days).
+
+Please give a warm welcome to the Nibiru team, particularly @Unique Divine, @Oleg N, and @k_yang, who will be available for questions either here in the channel or via a PRIVATE thread in the CT timezone(s). 
+
+🤖 **Documentation bot assistance:** For general questions about the codebase, give our documentation bot a try, by tagging `@Docs Wolf` in any thread (private or public) and asking your question. The bot will make its best attempt to answer based on the codebase and documentation, and link you to relevant resources.  
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: <https://code4rena.com/audits/2024-11-nibiru>
+
+{Reactions}
+code4rena (6) NIBI (4) 
+
+[11/12/2024 00:41] davies_0212
+Is Total SLOC 1610?
+
+
+[11/12/2024 00:44] samuselderg
+Looks like 7110 per audit readme 👍🏼
+
+{Reactions}
+🙏 hi5 
+
+[11/12/2024 10:47] 0xhelium
+Holy moly
+
+
+[11/12/2024 10:48] 0xhelium
+7110 - 1610 diff … This is too much for an error
+
+
+[11/12/2024 12:23] decap1703
+will Zenith audit report be available?
+
+
+[11/12/2024 12:28] itsmetechjay (pinned)
+ℹ️ Noting that the scope for this audit is ~7000 LOC as the language is Golang.  The original RSVP has been updated as well.
+
+{Reactions}
+thankyou 
+
+[11/12/2024 12:28] itsmetechjay
+Pinned a message.
+
+
+[11/12/2024 17:16] dimulski
+maybe put another contest in the scope as well
+
+{Reactions}
+😂 (2) 
+
+[11/12/2024 17:22] brivan
+From 1.6K to 7K? This is a big diff. I initially scheduled few days for this contest as it was 1.6K sloc only, but now I'm obliged to drop off given that it is 7K and few days are definitely not enough for it.
+Hope such big diffs won't happen again as it is hard for us to schedule contests timeline properly.
+
+{Reactions}
+👍 
+
+[11/12/2024 17:28] itsmetechjay
+Sometimes the information can change from when we post the RSVP to when we launch the audit, but I completely understand and hear your concerns.
+
+
+[11/17/2024 00:07] debof_
+Anyone know what requirements I have to install before running installation? I’m getting recipe error. @Unique Divine @Oleg N  @k_yang
+
+
+[11/17/2024 00:11] uniquedivine
+The Go dependencies or the npm ones?
+
+{Reactions}
+👍 
+
+[11/17/2024 00:59] uniquedivine
+I'd recommend the latest Golang version and updating the standard libraries inside 
+
+sudo apt-get update
+sudo apt-get upgrade
+
+{Reactions}
+👍 (2) 
+
+[11/17/2024 00:59] uniquedivine
+or the equivalent
+
+
+[11/18/2024 02:02] gxh6709
+I discovered a critical vulnerability outside the scope that affects all the funds on the chain. I have already constructed a Proof of Concept (PoC) and verified this vulnerability. You can quickly verify it too. Could this vulnerability be considered within the scope? Please let me know. If it can be included in the scope, I can submit it.
+
+
+[11/18/2024 02:32] kartoonjoy
+Please read the [doc](<https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs>) for how to proceed.
+
+{Reactions}
+👍 
+
+[11/18/2024 02:53] gxh6709
+Hello, I'd like to ask that if I submit according to the submission methods mentioned above (such as submitting reports within the stipulated time, following the correct format, including necessary contents and other relevant requirements), will it help to improve my ranking in the Code4rena competition? I hope to get your definite reply. Thank you.
+
+
+[11/18/2024 23:15] zsystm
+Why do you think your findings are out of scope? Which file is your finding related to? It seems like it would likely fall within the scope
+
+{Reactions}
+👍 
+
+[11/19/2024 08:37] gxh6709
+🔆
+
+
+[11/19/2024 11:11] cloudellie
+We'll reply to this in your private thread
+
+{Reactions}
+👍 
+
+[11/20/2024 00:50] debof_
+Not sure. I have Go installed. But I get an error when the ‘just install’ gets to line 9 where it says ‘Make Install’. It seems that my MacOS does not like that command and never has. What is the alternative command to ‘Make Install’ on the newer Macs? I cannot access the directory it is trying to copy to in MacOs new>> bin/…
+
+
+[11/20/2024 08:01] flackoon
+Sounds like you might need to install `build-essential`, but that's just a guess based on my experience with setting the project up on a ubuntu VM.
+
+{Reactions}
+👍 
+
+[11/20/2024 09:27] debof_
+Thanks. I’ll try it.
+
+
+[11/25/2024 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺Wardens The **Nibiru** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks.
+
+{Reactions}
+👍 (2) 🚀 👀 
+
+[12/09/2024 09:51] flackoon
+Any updates on the judging process 👀  When can we approximately expect PJQA?
+
+{Reactions}
+👨‍💻 (2) 👀 code4rena 
+
+[12/10/2024 06:27] zsystm
+Any updates on the judging process? 👀
+
+{Reactions}
+👍 (2) 
+
+[12/11/2024 08:42] gxh6709
+Any updates on the judging process? 👀
+
+{Reactions}
+👍 (3) 
+
+[12/19/2024 05:02] zsystm
+https://tenor.com/view/any-updates-dave-updates-dave-chappelle-updates-got-anymore-of-them-updates-got-any-updates-gif-10385857936391678287
+
+{Embed}
+https://tenor.com/view/any-updates-dave-updates-dave-chappelle-updates-got-anymore-of-them-updates-got-any-updates-gif-10385857936391678287
+Code4rena - ARCHIVE-PUBLIC - nibiru-nov11 [1293728065276608555].txt_Files/any-updates-dave-updates-33AF0.png
+
+{Reactions}
+😂 (3) 
+
+[12/25/2024 07:47] gxh6709
+Any updates on the judging process? 👀
+
+{Reactions}
+👍 (3) ❤️ (2) 
+
+[01/02/2025 16:19] thebrittfactor
+The sponsors are reviewing some issues before we proceed with PJ QA. Please stay tuned 🙂
+
+{Reactions}
+👍 (2) 
+
+[01/04/2025 19:04] ifex445
+nice
+
+{Reactions}
+👍 
+
+[01/10/2025 04:36] gxh6709
+Does anyone know how to contact the Nibiru team?
+
+
+[01/22/2025 17:34] ifex445
+result?
+
+
+[01/22/2025 19:15] kartoonjoy
+🤑 🎉  Awards for **Nibiru**:
+
+$29,543.74 USDC » @0x007
+$10,812.31 USDC » @0x41
+$5,396.52 USDC » @zsystm
+$3,912.48 USDC » @3DOC
+$2,218.8 USDC » Sentryx team: @buggsy @flacko 
+$1,899.91 USDC » @Bauchibred
+$1,618.96 USDC » @gxh191 GMT+8
+$1,449.27 USDC » @Rhaydden
+$688.06 USDC » @shaflow2
+$299.92 USDC » @ABAIKUNANBAEV
+$130.02 USDC » @ifex445
+$130.02 USDC » @0xaltego 
+
+🏁 Findings summary
+--------------------------------------—
+6 High risk findings
+10 Med risk findings
+31 wardens contributed
+
+Top Hunter: 0x007
+Top Gatherer: 0x007
+Top QA report: Bauchibred
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+⚠️ Awardees, be sure to [complete your tax reporting info](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) if you haven't already. This must be completed within 30 days (i.e. before 02/21/2025 20:00) to receive your award distribution for this audit.
+
+The leaderboard will be updated at a later date with these audit results. 
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+{Reactions}
+🙌 (7) 🎉 (3) 🚀 (2) 🇳🇬 
+
+[01/23/2025 02:46] gxh6709
+🤪
+
+
+[01/23/2025 03:20] daniel526
+congratulations @0x007
+
+
+[01/23/2025 05:35] gxh6709
+congratulations @0x007
+
+
+[01/23/2025 06:56] zsystm
+congrats @0x007
+
+
+[01/23/2025 07:13] bizzyvinci
+Thanks 🙏
+
+
+[01/28/2025 05:44] kurororushiruf_
+Where can we see report of this contest??
+
+{Reactions}
+👍 
+
+[01/28/2025 05:45] kurororushiruf_
+@CloudEllie @Jay | C4
+
+
+[01/28/2025 20:22] kartoonjoy
+It isn't posted quite yet. We're likely looking at another week or so.
+
+{Reactions}
+👍 (2) 
+
+[02/12/2025 07:42] flackoon
+Still on the same track or we should embrace ourselves for one more week 😅 ?
+
+
+[02/12/2025 13:45] kartoonjoy
+It's in the works but to take the pressure off of us, I'm going to tell you to brace yourself for another week. 😅
+
+{Reactions}
+👌 (2) 
+
+[02/24/2025 15:41] itsmetechjay
+ℹ️ This channel is pending archive.   As a result, any private threads will be permanently deleted in 03/07/2025 15:39. Please make sure to grab anything you might need before then.
+
+
+[03/06/2025 23:59] itsmetechjay
+ℹ️ Reminder: this channel will be deleted after 24 hours.
+
+
+==============================================================
+Exported 47 message(s)
+==============================================================
